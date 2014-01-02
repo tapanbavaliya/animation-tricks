@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>animation-tricks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- google jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#t1").click(function(){
+          $(".box").toggle();
+        });
+      });
+      $(document).ready(function(){
+        $("#t2").click(function(){
+          $(".round11").toggle();
+          $(".round22").toggle();
+          $(".round33").toggle();
+        });
+      });
+      $(document).ready(function(){
+        $("#t3").click(function(){
+          $(".grevity").toggle();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <br>
+    <div class="container text-center">
+      <h1>BOUNCING BALLS</h1>
+      <div class="btn-group">
+        <button id="t1" type="button" class="btn btn-success">1</button>
+        <button id="t2" type="button" class="btn btn-success">2</button>
+        <button id="t3" type="button" class="btn btn-success">3</button>
+      </div>
+    </div>
+    <!-- 3 circle in box -->
+    <div class="box">
+      <div class="circle1">
+      </div>
+      <div class="circle2">
+      </div>
+      <div class="circle3">
+      </div>
+    </div>
+    <!-- // 3 circle in box -->
+    <!-- 3 circle in circle-->
+    <div class="round11">
+      <div class="round1">
+      </div>
+    </div>
+    <div class="round22">
+      <div class="round2">
+      </div>
+    </div>
+    <div class="round33">
+      <div class="round3">
+      </div>
+    </div>
+    <!-- // 3 circle in circle-->
+    <!-- grevity ball -->
+    <div class="grevity">
+      <div class="circle">
+      </div>
+    </div>
+    <!-- // grevity ball -->
+    <!-- jQuery (necessarpt plugiy for Bootstrap's JavaScrins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+  </body>
+</html>
