@@ -349,3 +349,140 @@ body{
 50%  {-webkit-transform: translate(0px,200px);}
 100% {-webkit-transform: translate(0px,0px);}
 }
+/**/
+.line{
+	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
+  	-webkit-animation:myfirstline 5s;
+	-webkit-animation-iteration-count:infinite;
+}
+@-webkit-keyframes myfirstline
+{
+0%   {-webkit-transform: rotate(360deg) scale(1);}
+50%  {-webkit-transform: rotate(0deg)   scale(0.5);}
+100% {-webkit-transform: rotate(360deg) scale(1);}
+}
+.verticalLine1{
+	position: absolute;
+	width: 800px;
+	height: 500px;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
+  	border:5px solid yellow;
+  	-webkit-transform: rotate(72deg);
+  	-webkit-animation:myfirstline1 5s;
+	-webkit-animation-iteration-count:infinite;
+}
+@-webkit-keyframes myfirstline1
+{
+0%   {-webkit-transform: rotate(72deg) scale(1);}
+50%  {-webkit-transform: rotate(360deg)   scale(0.5);}
+100% {-webkit-transform: rotate(72deg) scale(1);}
+}
+.verticalLine2{
+	position: absolute;
+	width: 800px;
+	height: 500px;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
+  	border:5px solid red;
+  	-webkit-transform: rotate(-72deg);
+  	-webkit-animation:myfirstline2 5s;
+	-webkit-animation-iteration-count:infinite;
+}
+@-webkit-keyframes myfirstline2
+{
+0%   {-webkit-transform: rotate(-72deg) scale(1);}
+50%  {-webkit-transform: rotate(0deg)   scale(0.5);}
+100% {-webkit-transform: rotate(-72deg) scale(1);}
+}
+.verticalLine3{
+	position: absolute;
+	width: 800px;
+	height: 500px;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
+  	border:5px solid green;
+  	-webkit-transform: rotate(-144deg);
+  	-webkit-animation:myfirstline3 5s;
+	-webkit-animation-iteration-count:infinite;
+}
+@-webkit-keyframes myfirstline3
+{
+0%   {-webkit-transform: rotate(-1440deg) scale(1);}
+50%  {-webkit-transform: rotate(360deg)   scale(0.5);}
+100% {-webkit-transform: rotate(-144deg) scale(1);}
+}
+.verticalLine4{
+	position: absolute;
+	width: 800px;
+	height: 500px;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
+  	border:5px solid blue;
+  	-webkit-transform: rotate(216deg);
+  	-webkit-animation:myfirstline4 5s;
+	-webkit-animation-iteration-count:infinite;
+}
+@-webkit-keyframes myfirstline4
+{
+0%   {-webkit-transform: rotate(216deg) scale(1);}
+50%  {-webkit-transform: rotate(0deg)   scale(0.5);}
+100% {-webkit-transform: rotate(216deg) scale(1);}
+}
+.verticalLine5{
+	position: absolute;
+	width: 800px;
+	height: 500px;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
+  	border:5px solid #00ff00;
+  	-webkit-transform: rotate(-216deg);
+  	-webkit-animation:myfirstline5 5s;
+	-webkit-animation-iteration-count:infinite;
+}
+@-webkit-keyframes myfirstline5
+{
+0%   {-webkit-transform: rotate(-216deg) scale(1);}
+50%  {-webkit-transform: rotate(360deg)   scale(0.5);}
+100% {-webkit-transform: rotate(-216deg) scale(1);}
+}
+.verticalLine6{
+	position: absolute;
+	width: 800px;
+	height: 500px;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
+  	border:5px solid #808000;
+  	-webkit-transform: rotate(72deg);
+  	-webkit-animation:myfirstline6 5s;
+	-webkit-animation-iteration-count:infinite;
+}
+@-webkit-keyframes myfirstline6
+{
+0%   {-webkit-transform: rotate(72deg) scale(1);}
+50%  {-webkit-transform: rotate(0deg)   scale(0.5);}
+100% {-webkit-transform: rotate(72deg) scale(1);}
+}
