@@ -1,6 +1,9 @@
 body{
 	background-color: black;
 }
+.title-head{
+	font-size: 8em;
+}
 .box{
 	height:500px;
 	width:500px;
